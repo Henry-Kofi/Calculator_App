@@ -25,32 +25,91 @@ body{
  .first__heading--special{
     font-weight: 500;
  }
+ .text__del{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
  .textareas{
     display: flex;
     flex-direction: column;
     background-color: #b7bbbd;
     border-radius: 5px;
+    width: 94%;
  }
+ 
  .textarea__input{
     border-bottom: 1px solid rgba(155, 166, 168, 0.9);
+    padding: 9px;
+    height: 20px;
+    font-weight: bold;
  }
 
 .textarea__answer{
-
+    height: 20px;
+    padding: 15px;
+    text-align:right;
+    font-weight: bolder;
 }
 
+.extra__button{
+    width: 5%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.grid_opt1{ 
+    border:2px solid black;
+    border-radius: 5px;  
+    padding: 10px;  
+    display: grid;  
+    place-items: center;
+    margin: 3px;
+}
+
+button{
+    border-style: none;
+    font-size: 20px;
+}
 
 .buttons__container{
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
 .number_buttons{
-    display: flex;
-
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items:center;
+}
+.grid__item{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    display: grid;
+    place-items: center;
+    margin: 3px;
 }
 
+
+
 .operator__buttons{
-    background-color: antiquewhite;
+    width:14%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.grid_opt{
+    display: grid;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 3px;
+}
+
+.btn:hover{
+    background-color: aqua;
+    transition: 5s;
+    cursor: pointer;
 }
