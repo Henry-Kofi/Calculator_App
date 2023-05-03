@@ -1,2 +1,56 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #e1e8eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ textarea{
+    all: unset;
+ }
+
+ .first__heading{
+    text-transform: uppercase;
+ }
+
+ .first__heading--special{
+    font-weight: 500;
+ }
+ .textareas{
+    display: flex;
+    flex-direction: column;
+    background-color: #b7bbbd;
+    border-radius: 5px;
+ }
+ .textarea__input{
+    border-bottom: 1px solid rgba(155, 166, 168, 0.9);
+ }
+
+.textarea__answer{
+
+}
+
+
+.buttons__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number_buttons{
+    display: flex;
+    
+}
+
+.operator__buttons{
+    background-color: antiquewhite;
+}
