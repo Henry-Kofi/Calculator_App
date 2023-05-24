@@ -9,6 +9,7 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 
@@ -16,96 +17,32 @@
 </head>
 <body>
     <div class="background">
-        <h1 class="first__heading">
-            elit<span class="first__heading--special">calculator</span> 
-        </h1>
-        <div class="container">
-            <div class="text__del">
-                <section class="textareas">
-                    <textarea spellcheck="false" class="textarea__input"></textarea>
-                    <textarea spellcheck="false"  class="textarea__answer"></textarea>
-                </section>
-                <div class="extra__button">
-                    <div class="grid_opt1 btn">
-                        <button class="button__delete">
-                            <i class="fas fa-delete-left button__plus--icon"></i>
-                        </button>
-                    </div>
-                    <div class="grid_opt1 btn">
-                        <button class="button__reset">
-                            <i class="fas fa-sync button__reset--icon"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <section class="buttons__container">
-                <section class="number_buttons">
-                    <div class="grid__item btn">
-                        <button class="button__number--1">1</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__number--2">2</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__number--3">3</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__number--4">4</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__number--5">5</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__number--6">6</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__number--7">7</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__number--8">8</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__number--9">9</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__point--icon" >
-                            <i class="fa-solid fa-circle fa-2xs"></i>
-                        </button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__number--0">0</button>
-                    </div>
-                    <div class="grid__item btn">
-                        <button class="button__equal">
-                            <i class="fas fa-equals  button__equal--icon"></i>
-                        </button>
-                    </div>
-                    
-                </section>
-                <section class="operator__buttons">
-                    <div class="grid_opt btn">
-                        <button class="button__plus ">
-                            <i class="fas fa-plus button__plus--icon"></i>
-                        </button>
-                    </div>
-                    <div class="grid_opt btn">
-                        <button class="button__minus">
-                            <i class="fas fa-minus button__minus--icon"></i>
-                        </button>
-                    </div>
-                    <div class="grid_opt btn">
-                        <button class="button__times">
-                            <i class="fas fa-times button__times--icon"></i>
-                        </button>
-                    </div>
-                    <div class="grid_opt btn">
-                        <button class="button__divide">
-                            <i class="fas fa-divide button__divide--icon"></i>
-                        </button>
-                    </div>                   
-                </section>
-            </section>
+    <div class="container1">
+        <div class="text_area_container">
+            <h1 class="heading">
+                elit<span class="special_heading">Calculator</span>
+            </h1>
+            <textarea class="text_area_question"></textarea>
         </div>
+        <div class="key_container">
+            <button class="special_char">1</button>
+            <button class="special_char">2</button>
+            <button class="special_char">3</button>
+            <button class="special_char">DEL</button>
+            <button class="special_char">4</button>
+            <button class="special_char">5</button>
+            <button class="special_char">6</button>
+            <button class="special_char">+</button>
+            <button class="special_char">7</button>
+            <button class="special_char">8</button>
+            <button class="special_char">9</button>
+            <button class="special_char">-</button>
+            <button class="special_char">*</button>
+            <button class="special_char">0</button>
+            <button class="special_char">/</button>
+            <button class="special_char">=</button>
+        </div>
+    </div>
     </div>
 </body>
 </html>
